@@ -176,11 +176,11 @@ async function getBackgroundImg(){
     
     if(hour>=06 && hour<=19){
         
-        bg = color(56, 44, 44);
+        bg = "orange";
     }
     else{
         
-        bg = "orange";
+        bg = color(56, 44, 44);
     }
     //backgroundImg=loadImage(bg);
     
